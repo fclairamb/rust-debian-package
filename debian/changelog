@@ -1,0 +1,5 @@
+rust (1.2.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Florent Clairambault <florent@clairambault.fr>  Fri, 18 Aug 2015 01:19:00 +0200

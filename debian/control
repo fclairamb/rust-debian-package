@@ -1,0 +1,14 @@
+Source: rust
+Section: Development
+Priority: optional
+Maintainer: Florent Clairambault <florent@clairambault.fr>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://www.rust-lang.org/
+
+Package: rust
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: rust binaries
+ Rust package built directly from the official binaries
+

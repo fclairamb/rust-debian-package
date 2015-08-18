@@ -5,6 +5,10 @@ ifeq "$(ARCH)" "amd64"
 	ARCH=x86_64
 endif
 
+ifeq "$(ARCH)" "i386"
+	ARCH=i686
+endif
+
 BASE:=$(shell printf "rust-%s-%s-unknown-linux-gnu" $(VERSION) $(ARCH))
 FILE:=tmp/$(BASE).tar.gz
 DIR:=/tmp/$(BASE)
